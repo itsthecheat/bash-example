@@ -1,10 +1,10 @@
 steps:
   - command: ls
     plugins:
-      - itsthecheat/spell-checker#v1.0.0:
+      - itsthecheat/spell-checker:
           pattern: '*.md'
 
-          
+
 # steps:
 #   - label: ":hammer: Example Script"
 #     command: "script.sh"
