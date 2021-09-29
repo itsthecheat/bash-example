@@ -1,7 +1,7 @@
 steps:
   - command: ls
     plugins:
-      - itsthecheat/spell-checker#v2.0:
+      - itsthecheat/spell-checker#v2.1:
           pattern: '*.md'
 
 
