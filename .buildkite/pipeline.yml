@@ -1,6 +1,6 @@
 steps:
   - label: ":hammer: Example Script"
-    command: "./script.sh && echo $USER"
+    command: "./script.sh && echo USER"
     artifact_paths: "artifacts/*"
     agents:
       queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
