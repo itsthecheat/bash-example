@@ -1,6 +1,6 @@
 steps:
   - label: ":hammer: Example Script"
-    commands: 
+  - commands: 
       - "script.sh"
       - echo $USER
     artifact_paths: "artifacts/*"
