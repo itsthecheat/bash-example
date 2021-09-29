@@ -2,7 +2,7 @@ set -eo pipefail
 
 export USER="JohnDoe"
 export PASSWORD="Welcome123"
-
+echo $USER $PASSWORD
 echo "--- :package: Build job checkout directory"
 
 pwd
